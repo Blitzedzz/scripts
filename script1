@@ -1,4 +1,9 @@
---BROUGHT TO YOU BY RSCRIPTS.NET--
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Rainbow Sign", "DarkTheme")
+local Tab = Window:NewTab("Are You Sure?")
+local Ask = Tab:NewSection("Are You Sure?")
+Ask:NewButton("Load Rainbow Sign", "Loads Rainbow Sign", function()
+    --BROUGHT TO YOU BY RSCRIPTS.NET--
 
 local boothmsg = "DONATE FOR ADMIN"
 
@@ -28,4 +33,5 @@ spawn(function()
            colormsg(boothmsg,col)
        end
    end
+end)
 end)
