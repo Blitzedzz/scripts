@@ -5,7 +5,7 @@ local Ask = Tab:NewSection("Are You Sure?")
 Ask:NewButton("Load Rainbow Sign", "Loads Rainbow Sign", function()
     --BROUGHT TO YOU BY RSCRIPTS.NET--
 
-local boothmsg = "DONATE FOR ADMIN"
+local boothmsg = "DONATE FOR ADMIN THE MORE YOU DONATE THE MORE HOURS YOU ARE ADMIN"
 
 
 
