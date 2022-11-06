@@ -6,7 +6,7 @@ local Ask = Tab:NewSection("Are You Sure?")https://github.com/Coolhacker1332/scr
 Ask:NewButton("Load Rainbow Sign", "Loads Rainbow Sign", function()
     --BROUGHT TO YOU BY RSCRIPTS.NET--
 
-local boothmsg = "SAVEING UP FOR ECLIPSE"
+local boothmsg = "Donate For Admin The More You Donate More Time Of Admin You Have"
 
 
 
