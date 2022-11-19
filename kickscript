@@ -1,0 +1,7 @@
+local blacklisted = {["imnotPurpleDecoy"] = true}
+
+game.Players.PlayerAdded:Connect(function(plr)
+	if blacklisted[plr.Name] then 
+		plr:Kick "All players Kicked"
+	end
+end)
