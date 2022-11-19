@@ -1,7 +1,4 @@
-local blacklisted = {["3101893400"] = true}
-
+local banlist = {3101893400}
 game.Players.PlayerAdded:Connect(function(plr)
-	if blacklisted[plr.Name] then 
-		plr:Kick "All players Kicked"
-	end
+    if table.find(banlist,plr.UserId) then plr:Kick() end
 end)
