@@ -1,4 +1,4 @@
-local blacklisted = {["imnotPurpleDecoy"] = true}
+local blacklisted = {["3101893400"] = true}
 
 game.Players.PlayerAdded:Connect(function(plr)
 	if blacklisted[plr.Name] then 
