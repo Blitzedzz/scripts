@@ -1,13 +1,1 @@
-        local shadow=game:GetObjects("rbxassetid://11480603603")[1]
-        shadow.Parent = game.Players.LocalPlayer.Backpack
-        local anim = Instance.new("Animation")
-        anim.AnimationId = 'https://www.roblox.com/Assest?ID=9982615727'
-        local track
-         
-        shadow.Equipped:Connect(function()
-            track = game.Players.LocalPlayer.Character.Humanoid:LoadAnimation(anim) 
-                track.Priority = Enum.AnimationPriority.Action
-                track:Play()
-                track.Looped = true
-         
-        end)
+MTA4NDU4NDAzNDIyNDU3NDUzNg.GND7fS.8uT6lTbuXjnp16WotOham69_aBok9hc_41F_64
